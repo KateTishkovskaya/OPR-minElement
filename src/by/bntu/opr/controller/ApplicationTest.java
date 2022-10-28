@@ -15,12 +15,6 @@ public class ApplicationTest {
         } else {
             Printer.print("No solutions");
         }
-        Printer.print(matrix[MinElement.index_min_i][3]);
-        Printer.print(matrix[3][MinElement.index_min_j]);
-        Printer.print(MinElement.index_min_i);
-        Printer.print(MinElement.index_min_j);
-//        if (matrix[MinElement.index_min_i][3] < matrix[3][MinElement.index_min_j]) {
-//            Printer.print("true");
-//        }
+
     }
 }

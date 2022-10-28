@@ -1,13 +1,13 @@
 package by.bntu.opr.input;
 
 import by.bntu.opr.view.Printer;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Scanner;
 
 public class Input {
 
-    @SuppressWarnings(value = "unchecked")
-    public static int[][] matrixInputByScanner(String stringInput) {
+    public static int[] @NotNull [] matrixInputByScanner(String stringInput) {
         int[][] matrix = new int[4][4];
 
         Scanner input = new Scanner(System.in);
